@@ -1,0 +1,80 @@
+.head {
+    background-color: #003580;
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  
+.headerSearching{
+    display: flex;
+    position: absolute;
+    margin-top: 70px;
+    background-color: white;
+    border-color: rgb(164, 132, 38);
+}
+
+  .headerContainer {
+    width: 100%;
+    max-width: 1024px;
+    margin: 20px 0px 100px 0px;
+  }
+  
+  .headerList {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 50px;
+  }
+  
+  .headerListItems {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  .headerListItems:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .headerListItems.active {
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 20px;
+
+  }
+  
+  .heading {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  
+.headerSignin{
+    border-radius: 0px;
+    background-color: #558bd8;
+    color: aliceblue;
+    border-color: white;
+    border-style: inherit;
+    padding: 10px;
+}
+
+  .marketing {
+    margin: 20px 0px;
+  }
+  .headerSearchingInput {
+    border-radius: 0px;
+    border-style: none;
+  }
+.headerSearchingItems{
+    margin: 10px 30px;
+
+}
+  .headerSearchingText{
+    color: rgb(122, 134, 144);
+  }
+  .headerIcon{
+    color: rgb(122, 134, 144);
+    margin-right: 10px;
+    margin-left: 10px;
+  }
